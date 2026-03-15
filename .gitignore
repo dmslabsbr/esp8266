@@ -1,0 +1,23 @@
+# Lua bytecode / compiled
+*.lc
+luac.out
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor / IDE
+.idea/
+*.swp
+*.swo
+*~
+
+# Env / secrets (evitar commit de credenciais)
+.env
+.env.*
+*.secret
+
+# Logs e temporários
+*.log
+*.tmp
+.cache/
